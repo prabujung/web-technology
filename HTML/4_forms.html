@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h3>Form</h3>
+        <p>
+            <ul>
+                <li>Forms are used to collect input from a user.</li>
+                <li>&lt;form&gt; tag acts as a container for different types of input elements.</li>
+                <li>The different types of input elaments are listed as followes :</li>
+                <ol>
+                    <li>Text</li>
+                    <li>Password</li>
+                    <li>Radio</li>
+                    <li>Checkbox</li>
+                    <li>Button</li>
+                    <li>Submit</li>
+                </ol>
+            </ul>
+        </p>
+        <br>
+        <h3>Example 1</h3>
+        <form action="submit.php" method="post" target="_blank">
+            Username : <input type="text" placeholder="Enter your username"><br><br>
+            Password : <input type="password" placeholder="Enter your password"><br><br>
+            Choose a web language : 
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <br><br>
+            <input type="button" value="This is a button.">
+            <br><br>
+            Choose your vehicle : 
+            <input type="checkbox" id="v1" name="vehicle1" value="tesla">
+            <label for="v1">Tesla</label>
+            <input type="checkbox" id="v2" name="vehicle2" value="mercedes">
+            <label for="v2">Benz</label>
+            <input type="checkbox" id="v3" name="vehicle3" value="audi">
+            <label for="v3">Audi</label>
+            <br><br>
+            <input type="submit">
+        </form><br>
+        <h3>New Input types</h3>
+        <form action="/actionpage.php" method="get" target="_blank">
+            Color : <input type="color"><br><br>
+            Date : <input type="date"><br><br>
+            E-mail : <input type="email"><br><br>
+            File : <input type="file"><br><br>
+            Week : <input type="week"><br><br>
+            Number : <input type="number"><br><br>
+            Search : <input type="search"><br><br>
+            Time : <input type="time"><br><br>    
+        </form>
+    </body>
+</html>

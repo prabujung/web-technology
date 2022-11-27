@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="description" content="Learning web devlopment">
+        <meta name="author" content="PJ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Meta and others</title>
+    </head>
+    <body>
+        <h3>Meta</h3>
+        <p>
+            The &lt;meta&gt; tag typically used to specify the character set, 
+            page description, keywords, author of the document, and viewport settings.<br>
+            The metadata will not be displayed on the page, but is used by browsers 
+            (how to display content or reload page), by search engines (keywords), and other web services.<br>
+            SYNTAX : <code>&lt;meta name="..." content="..."></code>
+        </p>
+        <br><hr><br>
+        <h3>Audio</h3>
+        <p>
+            This tag is used to play an audio file in web browser. <br>
+            SYNTAX : 
+            <pre>
+                <code>
+                    &lt;audio&gt;
+                        &lt;source src="path" type="audio/mpeg"&gt;
+                    &lt;/audio&gt;
+                </code>
+            </pre>
+            The different attributes used in audio tag are listed below.
+            <ul>
+                <li>autoplay : automatically plays the audio when the page loads</li>
+                <li>preload : specifies how the audio should be loaded (auto/metadata/none) when the page loads </li>
+                <li>loop : plays the audio file over and over again</li>
+            </ul>
+        </p>
+        <audio controls autoplay preload="metadata" loop>
+            <source src="What.mp3">
+        </audio>
+        <br><hr><br>
+        <h3>Video</h3>
+        <p>
+            This tag is used to show video on webpage.
+        </p>
+    </body>
+</html>
